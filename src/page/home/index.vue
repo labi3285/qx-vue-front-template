@@ -10,7 +10,19 @@
 
     <qx-label text="label"></qx-label>
 
-    <qx-icon-label-button class="my-button" title="xxx" iconUrl="https://img.yzcdn.cn/vant/logo.png"></qx-icon-label-button>
+    <qx-items-menu>
+      <qx-icon-label-button class="my-button" title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
+      <qx-icon-label-button title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
+      <qx-icon-label-button title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
+      <qx-icon-label-button title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
+      <qx-icon-label-button title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
+
+      <qx-icon-label-button class="my-button" title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
+      <qx-icon-label-button title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
+      <qx-icon-label-button title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
+      <qx-icon-label-button title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
+      <qx-icon-label-button title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
+    </qx-items-menu>
 
     <!--<qx-icon-label-button title="xxx" iconUrl="https://img.yzcdn.cn/vant/logo.png"></qx-icon-label-button>-->
     <!--<qx-icon-label-button title="xxx" iconUrl="https://img.yzcdn.cn/vant/logo.png"></qx-icon-label-button>-->
@@ -31,6 +43,7 @@
   import qxIcon from '@/components/qx-icon'
   import qxLabel from '@/components/qx-label'
   import qxIconLabelButton from '@/components/qx-icon-label-button'
+  import qxItemsMenu from '@/components/qx-items-menu'
 
   import store from '@/store/index'
   import { mapActions } from 'vuex'
@@ -49,6 +62,7 @@
       qxLabel,
       qxIcon,
       qxIconLabelButton,
+      qxItemsMenu,
       XButton,
       Divider
     },
@@ -57,16 +71,6 @@
 </script>
 
 <style>
-  .my-button {
-    background-color: #9ed99d;
-  }
-  .my-button .qx-icon {
-    background-color: #007aff;
-  }
-  .my-button .qx-label {
-    background-color: #007aff;
-  }
-
   .container {
     margin: 0px auto;
     height: 100vh;
@@ -81,5 +85,10 @@
     margin: 15px;
     border-radius: 8px;
   }
+
+  .my-button .qx-icon {
+    background-color: #ce3c39 !important;
+  }
+
 </style>
 

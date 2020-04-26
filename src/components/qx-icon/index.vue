@@ -25,8 +25,9 @@
   }
 </script>
 
-<style>
+<style lang="less">
   .qx-icon {
     touch-action: pan-y;
+    background-color: blue;
   }
 </style>

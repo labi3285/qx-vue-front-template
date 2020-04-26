@@ -14,7 +14,7 @@
   }
 </script>
 
-<style>
+<style lang="less">
   .qx-label {
     touch-action: pan-y;
   }

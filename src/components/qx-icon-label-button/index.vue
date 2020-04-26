@@ -33,24 +33,25 @@
   }
 </script>
 
-<style>
+<style lang="less">
   .qx-icon-title-button {
-    padding: 5pt 5pt 5pt 5pt;
-    background-color: yellow;
     display: -webkit-flex; /* Safari */
     display: inline-flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+
+    padding: 5pt;
   }
   .qx-icon-title-button .qx-icon {
     width: 40pt;
     height: 40pt;
-    background-color: #ce3c39;
+    background-color: green;
+
   }
   .qx-icon-title-button .qx-label {
-    font-size: 13pt;
-    background-color: #ce3c39;
+    font-size: 12pt;
+    color: #999999;
   }
 </style>
