@@ -1,10 +1,10 @@
 <template>
-  <img ref="img" class="qx-icon" aria-hidden="true"/>
+  <img ref="img" class="qx-image" aria-hidden="true"/>
 </template>
 
 <script>
   export default {
-    name: 'qx-icon',
+    name: 'qx-image',
     props: {
       path: {
         type: String,
@@ -26,7 +26,7 @@
 </script>
 
 <style lang="less">
-  .qx-icon {
+  .qx-image {
     display: block;
     touch-action: pan-y;
   }

@@ -1,53 +1,72 @@
 <template>
-  <div class="wrapper">
 
-    <div>
-      <img style="width:100%;" src="../../assets/img/pic_banner@2x.png">
-    </div>
+  <qx-scroll-container class="content">
 
-    <qx-icon path="assets/img/icon/icon_shanghu_one.png"></qx-icon>
-    <qx-icon url="https://img.yzcdn.cn/vant/logo.png" width="50pt"></qx-icon>
+    <qx-image class="head" path="assets/img/pic_denglu_beingjing.png"></qx-image>
 
-    <qx-label text="label"></qx-label>
+    <qx-collection-container class="menu-container">
+      <qx-icon-label-button class="menu-item" title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
+      <qx-icon-label-button class="menu-item" title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
+      <qx-icon-label-button class="menu-item" title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
+      <qx-icon-label-button class="menu-item" title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
+      <qx-icon-label-button class="menu-item" title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
+      <qx-icon-label-button class="menu-item" title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
+      <qx-icon-label-button class="menu-item" title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
+    </qx-collection-container>
 
-    <qx-items-menu>
-      <qx-icon-label-button class="my-button" title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
-      <qx-icon-label-button title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
-      <qx-icon-label-button title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
-      <qx-icon-label-button title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
-      <qx-icon-label-button title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
+    <!--<p>xxxxxxxxx</p><br/>-->
 
-      <qx-icon-label-button class="my-button" title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
-      <qx-icon-label-button title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
-      <qx-icon-label-button title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
-      <qx-icon-label-button title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
-      <qx-icon-label-button title="菜单" iconPath="assets/img/icon/icon_shanghu_one.png"></qx-icon-label-button>
-    </qx-items-menu>
+  </qx-scroll-container>
 
-    <!--<qx-icon-label-button title="xxx" iconUrl="https://img.yzcdn.cn/vant/logo.png"></qx-icon-label-button>-->
-    <!--<qx-icon-label-button title="xxx" iconUrl="https://img.yzcdn.cn/vant/logo.png"></qx-icon-label-button>-->
-    <!--<qx-icon-label-button title="xxx" iconUrl="https://img.yzcdn.cn/vant/logo.png"></qx-icon-label-button>-->
-
-    <!--<x-button>submit</x-button>-->
-    <!--<x-button type="primary">primary</x-button>-->
-    <!--<x-button type="warn">Delete</x-button>-->
-
-    <!--<divider>link</divider>-->
-    <!--<x-button type="default" show-loading>submit</x-button>-->
-    <!--<x-button type="primary" show-loading>submit</x-button>-->
-    <!--<x-button type="warn" show-loading>submit</x-button>-->
-  </div>
 </template>
 
 <script>
+  import qxImage from '@/components/qx-image'
   import qxIcon from '@/components/qx-icon'
   import qxLabel from '@/components/qx-label'
   import qxIconLabelButton from '@/components/qx-icon-label-button'
-  import qxItemsMenu from '@/components/qx-items-menu'
+  import qxScrollContainer from '@/components/qx-scroll-container'
+
+  import qxCollectionContainer from '@/components/qx-collection-container'
+  import qxCard from '@/components/qx-card'
 
   import store from '@/store/index'
   import { mapActions } from 'vuex'
-  import { XButton, Divider } from 'vux'
 
   export default {
     name: 'home',
@@ -59,35 +78,43 @@
       ...mapActions(['loadPageConfig'])
     },
     components: {
+      qxImage,
       qxLabel,
       qxIcon,
       qxIconLabelButton,
-      qxItemsMenu,
-      XButton,
-      Divider
+      qxCollectionContainer,
+      qxScrollContainer,
+      qxCard
     },
     store
   }
 </script>
 
 <style>
-  .container {
-    margin: 0px auto;
-    height: 100vh;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
   .content {
-    background-color: #ffffff;
-    margin: 15px;
-    border-radius: 8px;
+    background-color: yellow;
+    height: 100vh;
   }
-
-  .my-button .qx-icon {
-    background-color: #ce3c39 !important;
+  .head {
+    width: 100%;
+  }
+  .menu-container {
+    background-color: white;
+    padding-top: 10pt;
+    border-radius:15pt 15pt 0 0;
+  }
+  .menu-item {
+    width: calc(100vw/4);
+    height: calc(100vw/4);
+  }
+  .menu-item .qx-icon {
+    width: 40pt;
+    height: 40pt;
+  }
+  .menu-item .qx-label {
+    margin-top: 5pt;
+    color: #999999;
+    font-size: 10pt;
   }
 
 </style>

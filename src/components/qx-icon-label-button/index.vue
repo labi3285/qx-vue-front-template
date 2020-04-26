@@ -42,16 +42,17 @@
     justify-content: center;
     align-items: center;
 
-    padding: 5pt;
+    /*padding: 5pt;*/
+
+    /*background-color: #007aff;*/
   }
   .qx-icon-title-button .qx-icon {
-    width: 40pt;
-    height: 40pt;
-    background-color: green;
-
+    /*width: 40pt;*/
+    /*height: 40pt;*/
+    /*background-color: green;*/
   }
   .qx-icon-title-button .qx-label {
-    font-size: 12pt;
-    color: #999999;
+    /*font-size: 12pt;*/
+    /*color: #999999;*/
   }
 </style>
